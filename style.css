@@ -49,6 +49,14 @@ body {
     width: calc(100% / 3);
 }
 
+footer {
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    border-bottom: 2px solid #FFFFFF;
+    margin-top: 50px;
+}
+
 /*-------------
      /General     
 --------------*/
@@ -63,7 +71,7 @@ header {
     background-color: #FF6900;
     padding-top: 10px;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 header > .container {
@@ -108,7 +116,7 @@ li, a {
 
 
 /*-------------------
-    CARD
+    Card
 -------------------*/
 .card {
     position: relative;
@@ -117,6 +125,7 @@ li, a {
 
 .card img {
     width: 100%;
+    max-height: 650px;
 }
 
 
@@ -126,6 +135,7 @@ li, a {
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 8px;
 }
 
 .discount {
@@ -158,3 +168,30 @@ li, a {
 .card:hover .card-image-default {
     display: none;
 }
+
+
+
+.card .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/*-------------------
+       /Card
+-------------------*/
+
+
+
+/*-------------------
+       Footer
+-------------------*/
+
+
+
+/*-------------------
+       Footer
+-------------------*/
+
+
